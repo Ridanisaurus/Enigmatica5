@@ -16,6 +16,7 @@ events.listen('recipes', function (event) {
 
         'morevanillalib:obsidian_shard',
 
+        'thermal:bamboo_block',
         'torchmaster:feral_flare_lantern',
         'torchmaster:megatorch',
 
@@ -39,7 +40,9 @@ events.listen('recipes', function (event) {
         'decorative_blocks:oak_beam',
         'decorative_blocks:redwood_beam',
         'decorative_blocks:dead_beam',
-        'decorative_blocks:spruce_beam'
+        'decorative_blocks:spruce_beam',
+
+        'mekanism:paper'
     ];
 
     outputRemovals.forEach(function (removal) {

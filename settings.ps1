@@ -2,13 +2,14 @@
 # For details/help see: https://github.com/NillerMedDild/ModpackUploader
 
 $CLIENT_MODS = @(
-	"AmbientSounds"
+	"AmbientSounds",
 	"AppleSkin", 
 	"BetterAdvancements",
 	"ClientTweaks",
 	"CraftingTweaks", 
 	"DefaultOptions", 
 	"DefaultSettings",
+	"Ding",
 	"EnchantmentDescriptions", 
 	"EquipmentTooltips", 
 	"FpsReducer", 
@@ -50,12 +51,12 @@ $CURSEFORGE_PROJECT_ID = 357692
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.6.1"
+$MODPACK_VERSION = "0.6.5"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.6.0"
+$LAST_MODPACK_VERSION = "0.6.4"
 
-$FORGE_VERSION = 31.2.36
+$FORGE_VERSION = 31.2.45
 
 $CLIENT_FILENAME = "Enigmatica5"
 
@@ -71,11 +72,11 @@ $GAME_VERSIONS = @(7722) # 7675 is 1.15.1, 7722 is 1.15.2
 $CLIENT_CHANGELOG_TYPE = "markdown"
 
 $CLIENT_CHANGELOG = "### Enigmatica 5 v$MODPACK_VERSION <br /> <br />" +
-"Using Forge-1.15.2-31.2.36 <br /> <br /> " +
+"Using Forge-1.15.2-31.2.45 <br /> <br /> " +
 "The Changelog is currently being written, it should be done within 10 minutes. "
 
 # Can be "alpha", "beta" or "release"
-$CLIENT_RELEASE_TYPE = "beta"
+$CLIENT_RELEASE_TYPE = "alpha"
 
 #=====================================================================//
 #  SERVER FILE SETTINGS
@@ -132,7 +133,7 @@ $SERVER_RELEASE_TYPE = $CLIENT_RELEASE_TYPE
 
 # Toggle twitch-export-builder (automatic building of the manifest zip) on/off
 # Default: $true
-$ENABLE_MANIFEST_BUILDER_MODULE = $true
+$ENABLE_MANIFEST_BUILDER_MODULE = $false
 
 # Toggle the modpack uploader on/off
 # Setting this to $false will also disable the Server File and Changelog Generator Modules.
